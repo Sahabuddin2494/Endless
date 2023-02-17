@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* commn_section_start */
+.commn_title_section {}
+
+.commn_title_section h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.commn_title_section hr {
+    opacity: 1;
+    border: none;
+    background-color: red;
+    width: 100px;
+    height: 2px;
+    display: inline-block;
+}
+
+/* commn_section_end */
+/* header_section_start */
+.header_top_section {
+    background-color: #CA2129;
+    text-align: right;
+}
+
+.header_top_section .svg-inline--fa {
+    height: 1em;
+    vertical-align: -0.125em;
+    color: white;
+    background: red;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+/* header-top_section_end */
+/* .menu_bar_section_start */
+.menu_bar_section {}
+
+.menu_bar_logo {}
+
+.m_bar_logo_size {
+    max-width: 100%;
+    max-height: 50px;
+}
+
+/* logo_end */
+/* endl_menu_bar_main_start */
+.endl_menu_bar_main {
+    float: right;
+}
+
+/* navbar */
+.new_navbar {}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+.new_navbar ul {
+    list-style: none;
+}
+
+.new_navbar ul li {
+    position: relative;
+    float: left;
+    /* padding:0px 10px 10px 10px; */
+    padding: 0px 0px 0px 0px;
+    transition: 0.7s;
+}
+
+.new_navbar ul li a {
+    text-transform: capitalize;
+    display: block;
+    transition: all 0.5s;
+    font-weight: 400;
+    padding: 6px 14px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+
+    /* background-color: red; */
+}
+
+.new_navbar ul li a:hover {
+    border-bottom: 1px solid black;
+    transition: all 0.12s;
+}
+
+.new_navbar ul li .drop_ul {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 200px;
+    /* background-color: thistle; */
+    background-color: #EEEEEE;
+    z-index: 100;
+    display: none;
+    padding: 3px 0px;
+    /* box-shadow: 0px 0px 7px 3px thistle; */
+}
+
+.new_navbar ul li .drop_ul .drop_ul_li {
+    width: 100%;
+    /* border-top: 1px solid black; */
+    /* margin:0px 0px 0px -29px; */
+}
+
+.new_navbar ul li .drop_ul .drop_ul_li a {
+    /* padding:4px 0px 4px 40px; */
+    /* background-color: white; */
+    text-transform: capitalize;
+    display: block;
+    transition: all 0.5s;
+    font-weight: 400;
+    padding: 6px 14px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+
+}
+
+.new_navbar ul li:hover>ul,
+a {
+    display: initial;
+
+}
+
+/* other_navbar_end */
+/* endl_menu_bar_main_end */
+/* .menu_bar_section_end */
+/* slider_section_start */
+.slider_section_start {
+    position: relative;
+}
+
+.slider_img_size {
+    width: 100%;
+    max-height: 500px;
+}
+
+.slider_caption {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.slider_caption h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100px;
+}
+
+.slider_caption h5 {
+    font-size: 30px;
+}
+
+/* slider_section_end */
+/* about_us_section_start */
+.about_us_section {}
+
+.about_us_left {
+    font-family: "Raleway", sans-serif;
+}
+
+.about_us_left p {
+    letter-spacing: normal;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 23px;
+    font-weight: 500;
+}
+
+.about_us_left .btn {
+
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 40px 0;
+    vertical-align: middle;
+    border-bottom: 3px solid;
+    text-transform: capitalize;
+    font: 400 14px/37px "Work Sans", Arial, Helvetica, sans-serif;
+    background-color: #CA2129;
+}
+
+.about_us_left .btn:hover {
+    background-color: navy;
+    color: white;
+}
+
+/* left_end */
+.about_us_right {}
+
+/* right_end */
+/* about_us_section_end */
+/* our_product_section_start */
+.our_product_section_start {
+    background-color: #CA2129;
+}
+
+.our_product_details_one {
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 40%);
+    transition: 0.6s;
+}
+
+.our_product_details_one:hover {
+    box-shadow: 0px 3px 13px 2px yellow;
+}
+
+.our_p_img_size {
+    width: 100%;
+    max-height: 250px;
+}
+
+.our_product_details_one p {
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+
+.our_product_details_one a {
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* our_product-section-end */
+/* attribute_section_start */
+.attributes_section_start {}
+
+.attributes_section_title {}
+
+/* attributes_section_details_start */
+.attributes_section_details {}
+
+.attributes_details_one {
+    text-align: center;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 3px #EEEEEE;
+}
+
+.attributes_details_one h3 {
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    color: #3E73CE;
+}
+
+.attributes_details_one p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+
+.attributes_details_one .svg-inline--fa {
+    height: 2em;
+}
+
+/* attribute_section_end */
+/* quality_control-section_start */
+.quality_control_section {
+    background-color: #597590;
+}
+
+.quality_control_details {
+    background-color: white;
+    text-align: center;
+}
+
+.quality_control_one {
+    /* background-color: white; */
+    text-align: center !important;
+}
+
+.quality_control_two {
+    text-align: center;
+    /* background-color: white; */
+}
+
+.quality_control_two h3 {
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+}
+
+.quality_control_two p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+
+/* quality-control-section_end */
+/* our_goal_animation_section_start */
+.our_goal_animation_section {
+    background-color: #000000;
+}
+
+.our_goal_mainly {}
+
+.our_goal_mainly p {
+    color: white;
+    margin: 0px;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+/* our_goal_animation_section_end */
+/* contact_details_start */
+.contact_details_start {
+    background-color: #0A4469;
+}
+
+.contact_details_one {
+    border-right: 1px solid white;
+}
+
+.contact_details_one h5 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact_details_one a {
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+}
+
+/* contact_details_end */
+/* footer_section_start */
+.footer_section_start{
+text-align: center;
+background-color: #000032;
+color: white;
+}
+.footer_section_main{
+
+}
+.footer_section_main p{
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px;
+}
+/* footer_section_end */
+/* about_page_start */
+.about_page_shaw{
+    box-shadow: 0px 5px 7px 2px whitesmoke;
+}
+/* about_page_end */
+/* attributes_page_start */
+.attributes_bg_color_1{
+background-color: #B9CCDE;
+}
+/* attributes_page_end */
+/* compliance_details_start */
+.compliance_details_one{
+    
+}
+/* compliance_details_end */
+/* form_section_start */
+.form_section_start{
+
+}
+.form_section_main{
+
+}
+.form_section_main_left{
+
+}
+/* .form_section-mail_left_end */
+.form_section_main_right{
+
+}
+.form_section_main_right_title{
+
+}
+.form_section_main_right_title h5{
+    font-weight: 600;
+    line-height: 1.5;
+    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+}
+.form_section_main_right_details .svg-inline--fa {
+    height: 1em;
+    vertical-align: -0.125em;
+    border: 1px solid #000000;
+   
+    border-radius: 50%;
+    /* padding: 12px 14px 12px 14px; */
+    color: #000000;
+}
+.form_section_main_right_details{
+    display: flex;
+    vertical-align:middle;
+}
+.form_section_main_right_details a{
+    text-decoration: none;
+}
+.form_section_main_right_details p{
+margin-left: 14px;
+padding-top: 8px;
+}
+/* form_section_main_right_end */
+/* form_section_end */
+/* map_section_start */
+.map_section_start{
+    
+}
+.map_section_main{
+
+}
+/* map_section_end */

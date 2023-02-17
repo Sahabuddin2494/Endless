@@ -1,0 +1,127 @@
+@media  (max-width: 1400px) { }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menu_bar_logo {
+    text-align: center;
+}
+   /* new_navbar_start */
+   .new_navbar ul{
+    padding:0px;
+   }
+   .new_navbar ul li{
+    width:100%;
+    padding: 0px;
+  }
+  .new_navbar ul li a:hover{
+   background-color:yellowgreen;
+   border-bottom: none;
+  }
+  .new_navbar ul li .drop_ul{
+    position: relative;
+    width:100%;
+    left:30px;
+    top:10px;
+    background-color: none;
+  }
+  .new_navbar ul li .drop_ul .drop_ul_li{
+   
+    /* background-color:plum!important; */
+  }
+  .new_navbar ul li .drop_ul .drop_ul_li a{
+    /* padding-left:50px; */
+    margin-left:30px;
+    padding-left:4px;
+   }
+   .new_navbar ul li .drop_ul .drop_ul_li a:hover{
+    background-color:yellowgreen;;
+    color:white;
+  
+   }
+  /* new_navbar_end */
+  .contact_details_one a {
+    margin-right: 0px;
+    font-size: 13px;
+}
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .menu_bar_logo {
+    text-align: center;
+}
+   /* new_navbar_start */
+   .new_navbar ul{
+    padding:0px;
+   }
+   .new_navbar ul li{
+    width:100%;
+    padding: 0px;
+  }
+  .new_navbar ul li a:hover{
+   background-color:yellowgreen;
+   border-bottom: none;
+  }
+  .new_navbar ul li .drop_ul{
+    position: relative;
+    width:100%;
+    left:30px;
+    top:10px;
+    background-color: none;
+  }
+  .new_navbar ul li .drop_ul .drop_ul_li{
+   
+    /* background-color:plum!important; */
+  }
+  .new_navbar ul li .drop_ul .drop_ul_li a{
+    /* padding-left:50px; */
+    margin-left:30px;
+    padding-left:4px;
+   }
+   .new_navbar ul li .drop_ul .drop_ul_li a:hover{
+    background-color:yellowgreen;;
+    color:white;
+  
+   }
+  /* new_navbar_end */
+ }
+
+@media (max-width: 575.98px) {
+  .menu_bar_logo {
+    text-align: center;
+}
+   /* new_navbar_start */
+   .new_navbar ul{
+    padding:0px;
+   }
+   .new_navbar ul li{
+    width:100%;
+    padding: 0px;
+  }
+  .new_navbar ul li a:hover{
+   background-color:yellowgreen;
+   border-bottom: none;
+  }
+  .new_navbar ul li .drop_ul{
+    position: relative;
+    width:100%;
+    left:30px;
+    top:10px;
+    background-color: none;
+  }
+  .new_navbar ul li .drop_ul .drop_ul_li{
+   
+    /* background-color:plum!important; */
+  }
+  .new_navbar ul li .drop_ul .drop_ul_li a{
+    /* padding-left:50px; */
+    margin-left:30px;
+    padding-left:4px;
+   }
+   .new_navbar ul li .drop_ul .drop_ul_li a:hover{
+    background-color:yellowgreen;;
+    color:white;
+  
+   }
+  /* new_navbar_end */
+ }
